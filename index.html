@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--========= REQUIRED METATAGS ======-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="assets/images/logo-1.png" type="image/png" />
+  <!--======== SWIPER SLIDER CSS =======-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!--========= BOOTSTRAP ICON =========-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <!--========== GOOGLE FONTS ==========-->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <!--========== CUSTOM STYLES =========-->
+  <link rel="stylesheet" href="assets/css/style.min.css" />
+  <title>YOG | Live A Healthy Life</title>
+</head>
+<body>
+  <!--============ NAVIGATION ==========-->
+  <nav class="nav grid grid-center">
+    <div class="container flex flex-items-center flex-justify-between h-100">
+      <a href="#" class="nav__logo">
+        <img class="nav__logo-img" src="assets/images/yoga-logo-1.png" alt="Yog logo" />
+      </a>
+      <ul class="nav__list flex flex-items-center">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link active">Home
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#about" class="nav__link">About
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#services" class="nav__link">Services
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#classes" class="nav__link">Classes
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#pricing" class="nav__link">Pricing
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#trainners" class="nav__link">Trainners
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#testimonials" class="nav__link">Testimonials
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+        <li class="nav__item">
+          <a href="#contact" class="nav__link">Contact
+            <i class="bi bi-chevron-right nav__link-icon"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="nav__toggle flex flex-center">
+        <i class="bi bi-list nav__toggle-icon"></i>
+      </div>
+    </div>
+  </nav>
+  <!--======== NAVIGATION END ==========-->
+
+  <!--========= HEADER START ===========-->
+  <header class="hero swiper" id="home">
+    <div class="hero__sliders swiper-wrapper">
+      <div class="hero__slider hero__slider--1 flex flex-center swiper-slide">
+        <div class="container hero__container grid grid-center">
+          <div class="hero__content text-center">
+            <span class="sub-title mg-b-md"> // Welcome our yog</span>
+            <h1 class="heading-primary mg-b-xl">Fitness for the services body and soul</h1>
+
+            <a href="#" class="btn btn--primary">Read more</a>
+          </div>
+          <div class="hero__imgs">
+            <img class="hero__imgs-img hero__imgs-img--1" src="assets/images/home-img1.png" alt="girl in yoga pose" />
+            <img class="hero__imgs-img hero__imgs-img--2" src="assets/images/home-banner.png" alt="banner" />
+          </div>
+        </div>
+      </div>
+      <!-- Hero slider 2 -->
+      <div class="hero__slider hero__slider--2 flex flex-center swiper-slide">
+        <div class="container hero__container grid grid-center">
+          <div class="hero__content text-center ">
+            <span class="sub-title mg-b-md"> // Teach yoga asana</span>
+            <h1 class="heading-primary mg-b-xl">Develop the skills to teach yoga asana </h1>
+
+            <a href="#" class="btn btn--primary">Read more</a>
+          </div>
+          <div class="hero__imgs">
+            <img class="hero__imgs-img hero__imgs-img--1" src="assets/images/home-img2.png" alt="girl in yoga pose" />
+            <img class="hero__imgs-img hero__imgs-img--2" src="assets/images/home-banner.png" alt="banner" />
+          </div>
+        </div>
+      </div>
+      <!-- Hero slider 3 -->
+      <div class="hero__slider hero__slider--3 flex flex-center swiper-slide">
+        <div class="container hero__container grid grid-center">
+          <div class="hero__content text-center">
+            <span class="sub-title mg-b-md"> // Mindfulness yoga</span>
+            <h1 class="heading-primary mg-b-xl">Here the now is where yoga begins</h1>
+
+            <a href="#" class="btn btn--primary">Read more</a>
+          </div>
+          <div class="hero__imgs">
+            <img class="hero__imgs-img hero__imgs-img--1" src="assets/images/home-img3.png" alt="girl in yoga pose" />
+            <img class="hero__imgs-img hero__imgs-img--2" src="assets/images/home-banner.png" alt="banner" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--===== Slider Navigations ======-->
+    <div class="swiper-button-next">
+      <i class="bi bi-chevron-right"></i>
+    </div>
+    <div class="swiper-button-prev">
+      <i class="bi bi-chevron-left"></i>
+    </div>
+    <!--===== Slider Pagination ======-->
+    <div class="swiper-pagination flex-center">
+    </div>
+  </header>
+
+  <!--========= ABOUT SECTION =========-->
+  <section class="about-section" id="about">
+    <div class="container about grid">
+      <div class="about__content text">
+        <span class="sub-title mg-b-md"> // about us</span>
+        <h3 class="heading-secondary mg-b-s">Tack your yoga to the next level with us</h3>
+        <p class="about__txt mg-b-lg">
+          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even.
+        </p>
+        <ul class="about__list flex flex-items-start mg-b-xl">
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Vestibulum a lacus sed ex
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Mauris at tellus non ante
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Mauris at tellus non ante
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Curabitur id tellus in ipsum
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Mauris at tellus non ante
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Curabitur id tellus in ipsum
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Integer rhoncus ligula non
+          </li>
+          <li class="about__item flex flex-items-center">
+            <i class="bi bi-check-all about__icon"></i>
+            Integer rhoncus ligula non
+          </li>
+        </ul>
+        <a href="#" class="btn btn--primary btn--big">Read more</a>
+      </div>
+      <div class="about__img">
+        <img src="assets/images/about.jpg" alt="Girl doing meditation" />
+      </div>
+    </div>
+  </section>
+
+  <!--======= SERVICES SECTION ========-->
+  <section class="services-section" id="services">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md"> // Our service</span>
+      <h3 class="heading-secondary">We offer different services</h3>
+    </div>
+    <div class="service grid container">
+      <article class="service-card" data-count="01">
+        <img class="service-card__icon" src="assets/images/service-1.png" alt="service icon one" />
+        <span class="service-card__subtitle">
+          There are many variations
+        </span>
+        <h2 class="service-card__title">
+          Hatha yoga
+        </h2>
+        <hr class="line" />
+        <p class="service-card__txt">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <a href="#" class="service-card__btn">
+          Read more
+          <i class="bi bi-plus service-card__btn-icon"></i>
+        </a>
+      </article>
+      <article class="service-card" data-count="02">
+        <img class="service-card__icon" src="assets/images/service-2.png" alt="service icon one" />
+        <span class="service-card__subtitle">
+          There are many variations
+        </span>
+        <h2 class="service-card__title">
+          Aerial yoga
+        </h2>
+        <hr class="line" />
+        <p class="service-card__txt">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <a href="#" class="service-card__btn">
+          Read more
+          <i class="bi bi-plus service-card__btn-icon"></i>
+        </a>
+      </article>
+      <article class="service-card" data-count="03">
+        <img class="service-card__icon" src="assets/images/service-3.png" alt="service icon one" />
+        <span class="service-card__subtitle">
+          There are many variations
+        </span>
+        <h2 class="service-card__title">
+          Bikaram yoga
+        </h2>
+        <hr class="line" />
+        <p class="service-card__txt">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+        <a href="#" class="service-card__btn">
+          Read more
+          <i class="bi bi-plus service-card__btn-icon"></i>
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!--======= CLASSES SECTION ========-->
+  <section class="classes-section" id="classes">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md"> // Our courses</span>
+      <h3 class="heading-secondary">Our best courses</h3>
+    </div>
+    <div class="classes grid container">
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-1.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Bikram yoga
+          </span>
+          <h2 class="class__title">Art of living</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$79.00</del>
+              <b class="class__pricing-current">$29.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-2.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Corepwer yoga
+          </span>
+          <h2 class="class__title">CorePower yoga</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$89.00</del>
+              <b class="class__pricing-current">$35.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-3.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Meditation
+          </span>
+          <h2 class="class__title">The space yoga</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$79.00</del>
+              <b class="class__pricing-current">$69.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-4.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Ansura yoga
+          </span>
+          <h2 class="class__title">The purpose of life</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$79.00</del>
+              <b class="class__pricing-current">$29.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-5.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Bikram yoga
+          </span>
+          <h2 class="class__title">Art of living</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$79.00</del>
+              <b class="class__pricing-current">$29.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+      <article class="class">
+        <img class="class__img" src="assets/images/classes/class-6.jpg" alt="Girl in yoga pose" />
+        <div class="class__details">
+          <span class="class__subtitle">
+            Bikram yoga
+          </span>
+          <h2 class="class__title">Art of living</h2>
+          <div class="flex flex-items-center flex-justify-between">
+            <ul class="class__rating flex flex-items-center">
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+              <li class="class__rating-icon">
+                <i class="bi bi-star-fill"></i>
+              </li>
+            </ul>
+            <div class="class__pricing">
+              <del class="class__pricing-previous">$79.00</del>
+              <b class="class__pricing-current">$29.00</b>
+            </div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!--========= PRICING SECTION =======-->
+  <section class="pricing-section" id="pricing">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md"> // Our pricing</span>
+      <h3 class="heading-secondary">Our pricing plan</h3>
+    </div>
+    <div class="pricings grid container">
+      <article class="pricing">
+        <span class="pricing__plan">Basic</span>
+        <h2 class="pricing__price">$19.99</h2>
+        <span class="pricing__duration">
+          / per week
+        </span>
+        <span class="line"></span>
+        <ul class="pricing__list flex flex-column">
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+        </ul>
+        <a href="#" class="btn btn--primary btn--big">
+          Purchase Plan
+        </a>
+      </article>
+      <article class="pricing pricing--standard">
+        <div class="pricing__badge">
+          <i class="bi bi-check-circle pricing__badge-icon"></i> Best
+        </div>
+        <span class="pricing__plan">Standard</span>
+        <h2 class="pricing__price">$59.99</h2>
+        <span class="pricing__duration">
+          / per week
+        </span>
+        <span class="line"></span>
+        <ul class="pricing__list flex flex-column">
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+        </ul>
+        <a href="#" class="btn btn--primary btn--big">
+          Purchase Plan
+        </a>
+      </article>
+      <article class="pricing">
+        <span class="pricing__plan">Premium</span>
+        <h2 class="pricing__price">$99.99</h2>
+        <span class="pricing__duration">
+          / per week
+        </span>
+        <span class="line"></span>
+        <ul class="pricing__list flex flex-column">
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-x-circle pricing__icon pricing__icon--cross"></i>
+          </li>
+          <li class="pricing__item flex flex-items-center flex-justify-between">
+            Yog remedies
+            <i class="bi bi-check-circle pricing__icon"></i>
+          </li>
+        </ul>
+        <a href="#" class="btn btn--primary btn--big">
+          Purchase Plan
+        </a>
+      </article>
+    </div>
+  </section>
+
+  <!--======== TRAINNER SECTION =======-->
+  <section class="trainer-section" id="trainners">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md"> // professional team</span>
+      <h3 class="heading-secondary">Meet our professional trainners</h3>
+    </div>
+    <div class="trainners container grid">
+      <figure class="trainner">
+        <img id="trainner__img" src="assets/images/trainners/trainner-1.jpg" alt="Yoga trainner one" />
+        <figcaption class="trainner__data">
+          <h4 class="trainner__name">
+            Alexa martin
+          </h4>
+          <span class="line"></span>
+          <div class="trainner__details flex flex-items-center flex-justify-center">
+            <p class="trainner__profession">
+              Yoga Master
+            </p>
+            <div class="trainner__socials flex flex-items-center">
+              <a href="#" class="trainner__social">
+                <i class="bi bi-instagram trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-facebook trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-twitter trainner__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="trainner">
+        <img id="trainner__img" src="assets/images/trainners/trainner-2.jpg" alt="Yoga trainner two" />
+        <figcaption class="trainner__data">
+          <h4 class="trainner__name">
+            Daniel Franklin
+          </h4>
+          <span class="line"></span>
+          <div class="trainner__details flex flex-items-center flex-justify-center">
+            <p class="trainner__profession">
+              Trainer
+            </p>
+            <div class="trainner__socials flex flex-items-center">
+              <a href="#" class="trainner__social">
+                <i class="bi bi-instagram trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-facebook trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-twitter trainner__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="trainner">
+        <img id="trainner__img" src="assets/images/trainners/trainner-3.jpg" alt="Yoga trainner three" />
+        <figcaption class="trainner__data">
+          <h4 class="trainner__name">
+            Michael Smart
+          </h4>
+          <span class="line"></span>
+          <div class="trainner__details flex flex-items-center flex-justify-center">
+            <p class="trainner__profession">
+              Yoga Teacher
+            </p>
+            <div class="trainner__socials flex flex-items-center">
+              <a href="#" class="trainner__social">
+                <i class="bi bi-instagram trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-facebook trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-twitter trainner__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="trainner">
+        <img id="trainner__img" src="assets/images/trainners/trainner-4.jpg" alt="Yoga trainner four" />
+        <figcaption class="trainner__data">
+          <h4 class="trainner__name">
+            Robert Anderson
+          </h4>
+          <span class="line"></span>
+          <div class="trainner__details flex flex-items-center flex-justify-center">
+            <p class="trainner__profession">
+              Wealth coach
+            </p>
+            <div class="trainner__socials flex flex-items-center">
+              <a href="#" class="trainner__social">
+                <i class="bi bi-instagram trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-facebook trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-twitter trainner__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+      <figure class="trainner">
+        <img id="trainner__img" src="assets/images/trainners/trainner-5.jpg" alt="Yoga trainner five" />
+        <figcaption class="trainner__data">
+          <h4 class="trainner__name">
+            Naidan Smith
+          </h4>
+          <span class="line"></span>
+          <div class="trainner__details flex flex-items-center flex-justify-center">
+            <p class="trainner__profession">
+              Yoga Master
+            </p>
+            <div class="trainner__socials flex flex-items-center">
+              <a href="#" class="trainner__social">
+                <i class="bi bi-instagram trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-facebook trainner__social-icon"></i>
+              </a>
+              <a href="#" class="trainner__social">
+                <i class="bi bi-twitter trainner__social-icon"></i>
+              </a>
+            </div>
+          </div>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!--====== TESTIMONIAL SECTION ======-->
+  <section class="testimonial-section" id="testimonials">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md">
+        // Our testimonial
+      </span>
+      <h3 class="heading-secondary">
+        What people say about <br> us
+      </h3>
+    </div>
+    <div class="testimonials container grid">
+      <artical class="testimonial">
+        <i class="bi bi-quote testimonial__icon mg-b-md"></i>
+        <blockquote class="testimonial__txt mg-b-lg">
+          Commited, Hardworking and professional, Very attentive and pleasure to deal with. The best agency and the best Experience!
+        </blockquote>
+        <div class="testimonial__data flex flex-items-center">
+          <div class="testimonial__img">
+            <img src="assets/images/testimonials/testimonial-1.jpeg" alt="Testimonial image" />
+          </div>
+          <address class="testimonial__details">
+            <p class="testimonial__name">
+              Esther Howard
+            </p>
+            <span class="testimonial__profession">
+              Software engineer
+            </span>
+          </address>
+        </div>
+      </artical>
+      <artical class="testimonial">
+        <i class="bi bi-quote testimonial__icon mg-b-md"></i>
+        <blockquote class="testimonial__txt mg-b-lg">
+          Commited, Hardworking and professional, Very attentive and pleasure to deal with. The best agency and the best Experience!
+        </blockquote>
+        <div class="testimonial__data flex flex-items-center">
+          <div class="testimonial__img">
+            <img src="assets/images/testimonials/testimonial-2.jpeg" alt="Testimonial image" />
+          </div>
+          <address class="testimonial__details">
+            <p class="testimonial__name">
+              Emily rose
+            </p>
+            <span class="testimonial__profession">
+              Software engineer
+            </span>
+          </address>
+        </div>
+      </artical>
+      <artical class="testimonial">
+        <i class="bi bi-quote testimonial__icon mg-b-md"></i>
+        <blockquote class="testimonial__txt mg-b-lg">
+          Commited, Hardworking and professional, Very attentive and pleasure to deal with. The best agency and the best Experience!
+        </blockquote>
+        <div class="testimonial__data flex flex-items-center">
+          <div class="testimonial__img">
+            <img src="assets/images/testimonials/testimonial-3.jpg" alt="Testimonial image" />
+          </div>
+          <address class="testimonial__details">
+            <p class="testimonial__name">
+              Sarah tailor
+            </p>
+            <span class="testimonial__profession">
+              Software engineer
+            </span>
+          </address>
+        </div>
+      </artical>
+    </div>
+  </section>
+
+  <!--========= CONTACT SECTION =======-->
+  <section class="contact-section" id="contact">
+    <div class="section-title container">
+      <span class="sub-title mg-b-md">
+        // Request a Quote
+      </span>
+      <h3 class="heading-secondary">
+        Contact with us
+      </h3>
+    </div>
+    <div class="contact grid container">
+      <div class="contact__boxes grid">
+        <article class="contact__box flex flex-center flex-column text-center">
+          <div class="contact__icon flex flex-center">
+            <i class="bi bi-telephone"></i>
+          </div>
+          <h5 class="contact__heading">Call us</h5>
+          <a href="ttel+1234567896" class="contact__txt">
+            +(567) 1234-567-8900
+          </a>
+          <a href="ttel+1234567896" class="contact__txt">
+            +(567) 1234-567-8900
+          </a>
+        </article>
+        <article class="contact__box flex flex-center flex-column text-center">
+          <div class="contact__icon flex flex-center">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <h5 class="contact__heading">Mail us</h5>
+          <a href="ttel+1234567896" class="contact__txt">
+            info@yog.com
+          </a>
+          <a href="ttel+1234567896" class="contact__txt">
+            support@yog.com
+          </a>
+        </article>
+        <article class="contact__box flex flex-center flex-column text-center">
+          <div class="contact__icon flex flex-center">
+            <i class="bi bi-geo-alt"></i>
+          </div>
+          <h5 class="contact__heading">Our location</h5>
+          <a href="ttel+1234567896" class="contact__txt">
+            The queen's walk, Bishop's, United Kingdom
+          </a>
+        </article>
+        <article class="contact__box flex flex-center flex-column text-center">
+          <div class="contact__icon flex flex-center">
+            <i class="bi bi-clock"></i>
+          </div>
+          <h5 class="contact__heading">Office hours</h5>
+          <a href="ttel+1234567896" class="contact__txt">
+            Mon-Sat : 9.00am to 7.00pm Sunday Closed
+          </a>
+        </article>
+      </div>
+      <form class="form grid" action="#" method="get" accept-charset="utf-8">
+        <div class="form__img">
+          <img src="assets/images/contact.jpg" alt="Woman streching her hand and smiling" />
+        </div>
+        <div class="form__content">
+          <span class="sub-title mg-b-sm"> // Contact us</span>
+          <h2 class="form__title heading-secondary mg-b-lg">Get in touch</h2>
+          <div class="form__group flex">
+            <input type="text" name="name" id="name" class="form__input" placeholder="Enter name" required />
+            <input type="email" name="email" id="email" class="form__input" placeholder="Enter email" required />
+          </div>
+          <div class="form__group flex">
+            <input type="tel" name="phone number" id="phone-number" class="form__input" placeholder="Enter phone number" required />
+            <input type="text" name="subject" id="subject" class="form__input" placeholder="Enter your message" required />
+          </div>
+          <div class="form__group">
+            <textarea name="message" id="message" rows="8" cols="40" class="form__input" placeholder="Enter your message" required></textarea>
+          </div>
+          <button class="btn btn--primary btn--big form__btn mg-y-md" type="submit">Send message</button>
+        </div>
+      </form>
+    </div>
+    <div class="map">
+      <iframe width="100%" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=The%20queen's%20walk,%20Bishop's,%20United%20Kingdom+(Yog)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/marine-gps/">ship tracker</a></iframe>
+    </div>
+  </section>
+ 
+ <!--========== GO UP BUTTON ==========-->
+ <a href="#home" class="goup-btn flex flex-center">
+   <i class="bi bi-chevron-up"></i>
+ </a>
+  <!--======== FOOTER SECTION =========-->
+  <footer class="footer-section">
+    <div class="container grid footer">
+      <div class="footer__box flex flex-column">
+        <div>
+           <h6 class="footer__heading">
+          Address
+        </h6>
+        <address>
+          Themeforest, Envato HQ 24 Fifth st, Los Angeles, USA
+        </address>
+        </div>
+        <div>
+            <h6 class="footer__heading">
+          Phone
+        </h6>
+        <a href="tel:+18002086835" class="footer__link">
+          +18002086835
+        </a>
+        </div>
+        <div>
+           <h6 class="footer__heading">
+          Email
+        </h6>
+        <a href="mailto:support@yog.com?subject=feedback" class="footer__link">support@uog.com</a>
+        </div>
+      </div>
+      <div class="footer__box">
+        <img class="footer__logo" src="assets/images/logo-1.png" alt="Yog logo" />
+        <p class="footer__txt">
+          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout
+        </p>
+        <ul class="footer__social flex flex-items-center">
+          <li>
+            <a href="#" class="footer__icon flex flex-center">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__icon flex flex-center">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__icon flex flex-center">
+              <i class="bi bi-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="footer__icon flex flex-center">
+              <i class="bi bi-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__box footer__insta grid">
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-1.jpg" alt="woman doing yoga" />
+        </figure>
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-2.jpg" alt="woman doing yoga" />
+        </figure>
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-3.jpg" alt="woman doing yoga" />
+        </figure>
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-4.jpg" alt="woman doing yoga" />
+        </figure>
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-5.jpg" alt="woman doing yoga" />
+        </figure>
+        <figure class="footer__img">
+          <img src="assets/images/social/insta-6.jpg" alt="woman doing yoga" />
+        </figure>
+      </div>
+    </div>
+    <div class="copyright flex flex-center">
+      <p>Made with &hearts; by <b> Sushant kumar</b> </p>
+    </div>
+  </footer>
+  
+  <!--======= CUSTOM JAVASCRIPT ========-->
+  <script src="assets/js/main.js"></script>
+  <!--======== SWIPER SLIDER JS ========-->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".hero", {
+      loop: true,
+      speed: 1000,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+        delay: 4000,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+</body>
+</html>
